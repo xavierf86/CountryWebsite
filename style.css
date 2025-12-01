@@ -8,11 +8,38 @@ nav a{
     color:white;
     text-decoration:none;
     background-color:red;
-    padding:15px;
+    text-align:center;
+    padding:10px;
+    transition:0.5s
 }
 #banner{
     justify-content:center;
     align-items:center;
     background-color:darkblue;
     color:white;
+}
+nav a:hover{
+    flex:1;
+    background-color:darkblue;
+    color:white;
+    transition:0.5s;
+}
+#main{
+    flex:1;
+    padding:15px;
+}
+.column{
+    flex-direction:column;
+}
+.center{
+    align-items:center;
+    justify-content:center;
+}
+.bottom{
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+img{
+    border-radius:15px;
 }
