@@ -25,7 +25,6 @@ nav a:hover{
     transition:0.5s;
 }
 #main{
-    flex:1;
     padding:15px;
 }
 .column{
@@ -42,4 +41,8 @@ nav a:hover{
 }
 img{
     border-radius:15px;
+}
+.center{
+    padding:15px;
+    font-size:20px;
 }
